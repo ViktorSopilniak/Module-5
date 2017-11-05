@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("../images/background.png") no-repeat fixed;
+    background: url("../images/background.jpg") no-repeat fixed;
     background-size: cover;
 }
 
@@ -79,7 +79,6 @@ nav {
     font-size: 3.75rem;
     font-family: "Dorsa";
     color: rgb(38, 53, 85);
-    /* text-shadow: 1px 1px 1px hsl(221, 38%, 15%); */
     text-transform: uppercase;
     box-sizing: border-box;
     padding: 35px 0;
@@ -251,6 +250,7 @@ figure:hover>.shader {
     background: url("../images/paris.png") no-repeat;
 }
 
+/* Шторка под кнопкой details ---------------- */
 .shader {
     display: none;
     position: absolute;
